@@ -6,6 +6,7 @@
 A coding challenge presented by ZTR which is to be completed in a few hours.
 
 # Development
+
 For the backend, I chose to use DRF because I am not to familiar with .NET Core
 and I was using a Macbook.  For the front end, I used ReactJS as my JS framework.
 
@@ -15,26 +16,34 @@ and I was using a Macbook.  For the front end, I used ReactJS as my JS framework
 git clone https://github.com/Pittfall/ZTR-Code-Challenge.git && cd ZTR-Code-Challenge
 
 ## Set up Server
+
 1. Install required packages
+
 cd server
 pipenv shell
 pipenv install
 
 2. Initial migration (create database)
+
 ./ztr/manage.py migrate
 
 3. Serve
+
 ./ztr/manage.py runserver
 
 ## Set up Client
+
 1. Install required packages
+
 cd client/ztr-machines
 npm install
 
 3. Serve
+
 ./npm start
 
 # Comments
+
 - Updating does not work yet.  You can click on a machine right now and it will take you
   to the new machine page with an id parameter but it does not read it yet.  I did
   not get a chance to complete that but I would use a patch for this which my server
