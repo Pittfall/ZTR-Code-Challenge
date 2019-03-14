@@ -1,3 +1,6 @@
+![alt text](https://github.com/Pittfall/ZTR-Code-Challenge/blob/master/images/Add_Machine.png)
+![alt text](https://github.com/Pittfall/ZTR-Code-Challenge/blob/master/images/View_Machines.png)
+
 # Coding Challenge
 
 A coding challenge presented by ZTR which is to be completed in a few hours.
@@ -31,7 +34,7 @@ npm install
 3. Serve
 ./npm start
 
-## Comments
+# Comments
 - Updating does not work yet.  You can click on a machine right now and it will take you
   to the new machine page with an id parameter but it does not read it yet.  I did
   not get a chance to complete that but I would use a patch for this which my server
