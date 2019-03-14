@@ -7,6 +7,9 @@ coverage/
 # production
 build/
 
+# database
+db.sqlite3
+
 # misc
 .vscode
 .DS_Store
